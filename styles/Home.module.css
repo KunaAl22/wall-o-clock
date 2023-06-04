@@ -1,0 +1,409 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+.selectedButton {
+  background-color: rgb(28, 126, 207);
+  color: white;
+}
+
+.tags{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  }
+  .button {
+    display: inline-block;
+    padding: 1.2rem 1rem;
+    margin-top: 10px;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .buttontop {
+    display: inline-block;
+    padding: 1.2rem 1rem;
+    margin-top: 10px;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .tagred {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .85rem;
+    background: #cb2d3e;
+    background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+      color: #fafafa;
+  }
+  
+  .user {
+    display: flex;
+    gap: 0 rem;
+  }
+  
+    
+  .user__info > small {
+    color: #666;
+  }
+  .card__footer {
+    display: flex;
+    padding: 0rem;
+    margin-top: 0;
+  }
+  .buttontop:hover{
+    background-color: rgb(239, 121, 108);
+    color: rgb(3, 3, 0);
+  }
+  .button:hover{
+    background-color: rgb(108, 239, 174);
+    color: rgb(3, 3, 0);
+  }
+  .uploadInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+
+.timeAgo {
+  margin-left: auto;
+}
+
+
+
+  
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__time {
+  margin-left: auto;
+}
+
+
+.header {
+  position: fixed;
+  padding: 1rem;
+  top:0;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  color: rgb(225, 225, 225);
+
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #f0f0f0be;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 85%;
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-block: 2rem;
+gap: 2rem;
+margin-block: 2rem;
+gap: 2rem;
+}
+
+.rightcolumn {
+  float: left;
+  padding-left: 10px;
+}
+.name{
+  text-align: center;
+  text-decoration: solid;
+  
+}
+
+
+.card {
+  width: calc(33.33% - 20px); 
+  height: 560px; 
+  margin-bottom: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  margin-top: 50px;
+
+}
+.body {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+.header h2 {
+  color: hsl(0, 0%, 76%);
+  font-size: 65px;
+  font-weight: bold;
+ 
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+
+.header h2 span {
+  transition: 0.5s ease-out;
+}
+
+.header h2:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+.header h2:hover span:nth-child(1):after {
+  content: "'";
+}
+
+.header h2:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+
+.header h2:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.title a {
+  color: #0060cd;
+  text-decoration: none;
+}
+
+
+
+.title {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.loading{
+  margin-top: 300px;
+  margin-left: 16%;
+}
+.center {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300 px;
+  background: #292828;
+  border-radius: 10%;
+}
+.wave {
+  width: 5px;
+  height: 100px;
+  background: linear-gradient(45deg, cyan, #fff);
+  margin: 10px;
+  animation: wave 1s linear infinite;
+  border-radius: 20px;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.wave:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.wave:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.wave:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.wave:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 30%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.cardright {
+  margin: 1rem;
+  position: fixed;
+  width: 15%;
+    margin-top: 90px;
+    padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  background-color: #252525;
+  color: #ffffff;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  border-color: #262e37;
+  border-radius: 5px;
+  border-width: 2px;
+}
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card__body {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+@media (max-width: 1200px){
+  .card {
+    height: 400px; 
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+    
+  }
+  .cardright {
+    margin: 1rem;
+    position:relative;
+    width: 80%;
+    align-self: center;
+      margin-top: 90px;
+      padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    background-color: #252525;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .card {
+    width: calc(33.33% - 20px); 
+    height: 400px; 
+    margin-bottom: 20px;
+  }
+  
+}
+

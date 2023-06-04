@@ -1,0 +1,61 @@
+/* styles.module.css */
+
+.section {
+  margin: 150px;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  flex-direction: column;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.inputButton {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonCustom {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.largeButton {
+  font-size: 20px;
+}
+
+.header {
+  position: fixed;
+  padding: 1rem;
+  top:0;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  color: rgb(225, 225, 225);
+
+}
