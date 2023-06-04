@@ -1,11 +1,16 @@
-# Wall O' Cloak
+# Wall O' Clock
 
-![Logo](/pubic/images/logo.png)
+<div align="center">
+  <img src="https://github.com/KunaAl22/wall-o-clock/blob/master/public/images/logo.png" alt="Logo" width="1000"  />
+</div>
 
 
 Wall O' Clock is a web application built with Next.js and NextAuth.js for user authentication, and MongoDB as the database. It provides a platform for users to share and explore their favorite images with others. The application allows users to upload images, categorize them, and add descriptions.
-![1](/pubic/images/s1.png)
-![2](/pubic/images/screnn1.png)
+<div align="center">
+  <img src="https://github.com/KunaAl22/wall-o-clock/blob/master/public/images/s1.png" alt="Logo" width="1000"  />
+</div>
+
+
 ## Features
 
 - **User Authentication:** Wall O' Clock uses NextAuth.js for secure user authentication. Users can create an account, log in, and log out to access and manage their uploaded images.
