@@ -1,14 +1,13 @@
 # Wall O' Clock
 
-<div align="center">
-  <img src="https://github.com/KunaAl22/wall-o-clock/blob/master/public/images/logo.png" alt="Logo" width="1000"  />
-</div>
+Wall O' Clock is a web application built with Next.js, NextAuth.js and MongoDB.
+It provides a platform for users to share and explore their favorite images with others. The application allows users to upload images, categorize them, and add descriptions.
 
 
-Wall O' Clock is a web application built with Next.js and NextAuth.js for user authentication, and MongoDB as the database. It provides a platform for users to share and explore their favorite images with others. The application allows users to upload images, categorize them, and add descriptions.
 <div align="center">
   <img src="https://github.com/KunaAl22/wall-o-clock/blob/master/public/images/s1.png" alt="Logo" width="1000"  />
 </div>
+
 
 
 ## Features
@@ -26,10 +25,10 @@ Wall O' Clock is a web application built with Next.js and NextAuth.js for user a
 
 ## Installation
 
-To run the Wall O' Cloak application locally, follow these steps:
+To run the Wall O' Clock application locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/wall-o-cloak.git`
-2. Install dependencies: `cd wall-o-cloak` and `npm install`
+1. Clone the repository: `git clone https://github.com/KunaAl22/wall-o-clock`
+2. Install dependencies: `cd wall-o-clock` and `npm install`
 3. Set up environment variables: Create a `.env` file and provide the necessary environment variables for NextAuth.js and MongoDB configuration.
 4. Start the development server: Run `npm run dev` to start the application in development mode.
 5. Access the application: Open your web browser and navigate to `http://localhost:3000` to access the Wall O' Cloak application.
@@ -45,20 +44,20 @@ To run the Wall O' Cloak application locally, follow these steps:
 
 ## Future Enhancements
 
-The Wall O' Cloak application has great potential for further enhancements and features, including:
+The Wall O' Clock application has great potential for further enhancements and features, including:
 
-- **User Profiles:** Implement user profile pages to showcase users' uploaded images, likes, and comments.
+- **User Profiles:** Implement user profile pages to showcase user's uploaded images, likes, and comments.
 - **Social Sharing:** Integrate social media sharing functionality to allow users to share images on their social networks.
 - **Image Tags:** Implement a tagging system to enable users to add tags to their images, enhancing discoverability.
 - **User Interactions:** Allow users to follow each other, like and comment on images, and receive notifications.
 
 ## Contributing
 
-Contributions to the Wall O' Cloak project are welcome! If you would like to contribute, please follow the guidelines in the `CONTRIBUTING.md` file.
+Contributions to the Wall O' Clock project are welcome! If you would like to contribute, please follow the guidelines in the `CONTRIBUTING.md` file.
 
 ## License
 
-The Wall O' Cloak project is open-source and released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
+The Wall O' Clock project is open-source and released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
 
 
 ## Acknowledgements
